@@ -7,6 +7,9 @@ vim.pack.add({
 vim.lsp.enable({ 
     "lua_ls",
     "ts_ls",
-    "terraformls"
+    "terraform-lsp",
+    "pyright",
+    "gopls",
+    "astro"
 })
 
