@@ -2,6 +2,7 @@ require('config.options')
 require('config.keymaps')
 
 vim.pack.add({
+    { src = 'https://github.com/mfussenegger/nvim-dap' },
     { src = 'https://github.com/neovim/nvim-lspconfig' },
     { src = 'https://github.com/nvim-lua/plenary.nvim' },
     { src = 'https://github.com/nvim-telescope/telescope.nvim' },
@@ -11,7 +12,7 @@ vim.pack.add({
     {
         src = 'https://github.com/obsidian-nvim/obsidian.nvim',
         version = vim.version.range '*' -- use latest release, remove to latest commit.
-    }
+    },
 });
 
 vim.lsp.config("lua_ls", {
@@ -31,8 +32,10 @@ vim.lsp.enable({
     "pyright",
     "gopls",
     "astro",
-    "oxlint"
+    "oxlint",
+    "yamlls"
 })
 
+require('plugins.dap')
 require('plugins.conform')
 require('plugins.obsidian')
