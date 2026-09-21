@@ -1,0 +1,9 @@
+[user]
+	name = Johnny D.
+	email = johnnydicksoncode@gmail.com
+[core]
+	editor = vim
+	pager = less
+	visual = vim
+[init]
+	defaultBranch = main
