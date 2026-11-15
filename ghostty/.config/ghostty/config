@@ -1,2 +1,2 @@
-theme = Vesper
-command = /opt/homebrew/bin/fish
+theme = Wilmersdorf
+command = /etc/profiles/per-user/johnny/bin/fish
