@@ -3,3 +3,4 @@ hosts.yml
 
 # Shell - Fish
 fish/
+fish_variables
