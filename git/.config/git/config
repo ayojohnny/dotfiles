@@ -1,0 +1,13 @@
+[core]
+  editor = "nvim"
+  pager = "less"
+
+[init]
+  defaultBranch = main
+
+[alias]
+  l = log
+  lo = log --oneline
+  lg = log --graph
+  lgo = log --oneline --graph --decorate
+  d = diff
